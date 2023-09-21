@@ -1,0 +1,324 @@
+.image-container {
+    margin: 0;
+}
+
+.hero-image {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-header {
+    height: auto;
+    font-family: Roboto;
+    width: 100%;
+    position: relative;
+}
+
+.mobile-nav-bar {
+    display: none;
+}
+
+.nav-container {
+    position: relative;
+    display: flex;
+}
+
+.checkout-container {
+    background-color: #F8F6F2;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.payment-container {
+    background-color: #F8F6F2;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.check-out-button {
+    width: 20em;
+    font-size: 19;
+}
+
+.submit-button:disabled{
+    background-color: lightgray;
+    border: .5px solid black;
+}
+
+@media (max-width: 1010px) {
+    .nav-bar {
+        display: none;
+    }
+
+    .mobile-nav-bar {
+        display: flex;
+        position: relative;
+        right: 0;
+    }
+
+    .nav-burger {
+        position: relative;
+        top: 30%;
+        right: 5%;
+        cursor: pointer;
+    }
+
+    .nav-content-container{
+        position: relative;
+        flex-direction: column;
+        top: 200px;
+        right: 0;
+    }
+        .check-out-button {
+        margin: 0;
+        padding: 0;
+        width: 10em;
+        font-size: 14px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .check-out-button {
+        margin: 0;
+        padding: 0;
+        width: 8em;
+        font-size: 12px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/*ORDER ONLINE*/
+.orderOnline-container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #F8F6F2;
+    position: relative;
+}
+
+.orderOnline-header {
+    margin-top: 10px;  
+    font: Roboto;
+    font-weight: 500;
+}
+
+.orderOnline-button {
+    width: 24em;
+    height: 3.5em;
+    border: solid;
+    border-color: #1D1F2C;
+}
+
+.openingHours{
+    height: auto;
+    background-color: #1D1F2C;
+}
+
+/*OPENING HOURS*/
+.opening-hours{
+    font-weight: bold;
+    font-family: Roboto;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    
+}
+
+.fri-dun{
+    margin-bottom: 15px;
+}
+
+/*PIZZA MENU*/
+.pizzaMenu-container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #F8F6F2;
+    position: relative;
+    overflow-y: hidden;
+  
+}
+.pizza-text{
+   
+}
+
+
+.pizza-menu {
+    background-color:#F8F6F2;
+
+}
+
+.pizzaMenu-header{
+    text-align: center;
+    justify-content: center;
+    color: blue;
+    font-size: 42px;
+    font-family: Roboto, sans-serif, 700;
+    font-weight: 700;
+    margin: auto;
+    
+    letter-spacing: 8px;
+}
+
+.pizzaMenu-text{
+    text-align: center;
+    justify-content: center;
+    color: blue;
+    font-size: 42px;
+    font-family: Roboto, sans-serif;
+}
+
+
+.hero-image2{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    overflow-y: hidden;
+}
+
+
+/*PASTA MENU*/
+.pastaMenu-container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #F8F6F2;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.pastaMenu-header{
+    text-align: center;
+    justify-content: center;
+    color: blue;
+    font-size: 42px;
+    font-family: Roboto, sans-serif, 700;
+    font-weight: 700;
+    margin: auto;
+    letter-spacing: 8px;
+}
+
+.pastaMenu-text{
+    text-align: center;
+    justify-content: center;
+    color: blue;
+    font-size: 42px;
+    font-family: Roboto, sans-serif;
+}
+
+
+/*SIDE DISHES MENU*/
+.sideDishesMenu-container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #F8F6F2;
+    position: relative;
+    overflow-y: hidden;
+}
+
+
+/*BEVERAGE MENU*/
+.beveragesMenu-container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #F8F6F2;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.beveragesMenu-header{
+    text-align: center;
+    justify-content: center;
+    font-size: 42px;
+    font-family: Roboto, sans-serif, 700;
+    font-weight: 700;
+    margin: auto;
+    letter-spacing: 8px;
+}
+
+.beveragesMenu-text{
+    text-align: center;
+    justify-content: center;
+    font-size: 42px;
+    font-family: Roboto, sans-serif;
+}
+
+
+/*GLOBAL*/
+
+.darkButton-medium{
+    background-color: #1D1F2C;
+    font-size: 18px;
+    width: 18em;
+    height: 3em;
+    color: white;
+    letter-spacing: 4px; 
+}
+
+p{
+    font-family: Roboto, sans-serif;
+    letter-spacing: 4px;
+}
+
+.card {
+    background-color: #F8F6F2; 
+}
+
+.textBox-menus{
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+}
+
+.MuiCard-root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0;
+}
+
+.MuiPaper-root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toNextMenu-button{
+    width: 9em;
+    height: 2em;
+    border-color: #1D1F2C, solid;
+    font-weight: 500;
+}
+
+.add-button{
+    float: right;
+}
+
+.home {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.app {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+}
